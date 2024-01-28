@@ -37,6 +37,12 @@
     opacity: 100%;
     transition: opacity 1s;
 }
+.side-nav-menu{
+    z-index: 99;
+}
+.logo {
+    width: 50px;
+}
 /* HTML: <div class="loader"></div> */
 .loader {
     --s: 25px;
