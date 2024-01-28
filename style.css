@@ -10,7 +10,7 @@
     transition: top 0.5s;
     padding-left: 10px;
 }
-input::placeholder{
+.search-inputs input::placeholder{
   color: rgba(255, 255, 255, 0.75) !important;
 }
 .category .light-layer{
