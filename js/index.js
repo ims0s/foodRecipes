@@ -92,11 +92,13 @@ document.getElementById('areas-page').addEventListener('click',()=>{
 document.getElementById('ingrediants-page').addEventListener('click',()=>{
     listIngredients(foodsContainer,loader)
     closeSideNav();
+    hideSearchField();
 })
 
 document.getElementById('contact-page').addEventListener('click',()=>{
     showContacts();
     closeSideNav();
+    hideSearchField();
 })
 
 function hideSearchField(){
