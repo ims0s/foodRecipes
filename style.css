@@ -10,7 +10,13 @@
     transition: top 0.5s;
     padding-left: 10px;
 }
-.meal:hover .light-layer{
+input::placeholder{
+  color: rgba(255, 255, 255, 0.75) !important;
+}
+.category .light-layer{
+    flex-direction: column;
+}
+.meal:hover .light-layer,.category:hover .light-layer{
     top: 0;
 }
 .meal{
